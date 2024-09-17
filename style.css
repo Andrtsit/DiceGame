@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(to bottom right, #b197fc, #862e9c);
+  color: #222;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 50%;
+  height: 65%;
+  border-radius: 1.6rem;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+}
+.player {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #9c36b5;
+}
+
+.first {
+  opacity: 1;
+}
+.second {
+  opacity: 0.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3.2rem;
+  width: 30rem;
+  height: 20rem;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.score-first {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.score-second {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.current-score-div {
+  width: 25rem;
+  height: 15rem;
+  background-color: #81005a81;
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.6rem;
+}
+
+.current-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.current-score-first {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.current-score-second {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.btn {
+  display: block;
+  position: absolute;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.6rem;
+  background-color: #fff;
+  color: #000;
+  opacity: 0.7;
+  border: none;
+  cursor: pointer;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3rem;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+}
+
+.new-game {
+  top: 15%;
+}
+
+.roll-dice {
+  top: 65%;
+}
+.hold-it {
+  top: 80%;
+}
+.dice {
+  position: absolute;
+  height: 9rem;
+  width: 9rem;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
