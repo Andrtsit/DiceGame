@@ -3,36 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="queries.css">
+    <script defer src="app.js"></script>
     <title>DiceGame</title>
   </head>
   <body>
-    <main>
-      <section class="player first active">
-        <div class="container">
-          <h1>PLAYER 1</h1>
-          <p class="score-first">0</p>
-        </div>
-        <div class="current-score-div">
-          <h3 class="current-heading">CURRENT</h3>
-          <p class="current-score-first">0</p>
-        </div>
-      </section>
-      <section class="player second">
-        <div class="container">
-          <h1>PLAYER 2</h1>
-          <p class="score-second">0</p>
-        </div>
-        <div class="current-score-div">
-          <h3 class="current-heading">CURRENT</h3>
-          <p class="current-score-second">0</p>
-        </div>
-      </section>
-      <img src="img/dice-1.png" alt="image of a dice" class="dice" />
-      <button class="btn new-game">🔄 NEW GAME</button>
-      <button class="btn roll-dice">🎲 ROLL DICE</button>
-      <button class="btn hold-it">📥 HOLD</button>
-    </main>
-    <script src="script.js"></script>
+    <button id="reset">RESET</button>
+    <main id="main">
+         <section class="player player-one">
+          <div class="score">
+            <h1>Player 1</h1>
+            <p class="score-player-one">0</p>
+          </div>
+          <div class="current-score">
+            <p class="current-score-player-one">0</p>
+          </div>
+         </section>
+         <section class="player player-two">
+          <div class="score">
+            <h1>Player 2</h1>
+            <p class="score-player-two">0</p>
+          </div>
+          <div class="current-score">
+            <p class="current-score-player-two">0</p>
+          </div>
+        </section>
+        <button id="dice">Roll 🎲</button>
+        <button id="collect">Collect</button>
+      </main>
   </body>
 </html>
