@@ -29,8 +29,9 @@ Simple Installation : Just use git clone :
 
 ## 🚀 Deployment
 
+Live demo available on GitHub Pages:
+[LINK](https://andartsit.github.io/DiceGame/)
 
-LIVE LINK : (https://github.io/Andrtsit/DiceGame/)
 
 ## 🤝 Contributing
 
