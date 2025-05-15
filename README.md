@@ -29,9 +29,8 @@ Simple Installation : Just use git clone :
 
 ## 🚀 Deployment
 
-This project will be deployed using Gh-pages
 
-LIVE LINK :  
+LIVE LINK : (https://github.io/Andrtsit/DiceGame/)
 
 ## 🤝 Contributing
 
@@ -39,7 +38,7 @@ Feel free to contribute by submitting issues or pull requests.
 
 ## 📜 License
 
-This project is under no License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
