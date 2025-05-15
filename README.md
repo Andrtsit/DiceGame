@@ -30,7 +30,7 @@ Simple Installation : Just use git clone :
 ## 🚀 Deployment
 
 Live demo available on GitHub Pages:
-[LINK](https://andartsit.github.io/DiceGame/)
+[LINK](https://andrtsit.github.io/DiceGame/)
 
 
 ## 🤝 Contributing
